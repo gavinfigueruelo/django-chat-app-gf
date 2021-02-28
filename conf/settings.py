@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
+
+
+    
+    'chats.apps.ChatsConfig',
 ]
 
 MIDDLEWARE = [
